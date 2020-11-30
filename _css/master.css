@@ -15,12 +15,27 @@
     color: #0c3a48;
 }
 
+.linha-vertical-fina {
+    height: 100%; /*Altura da linha*/
+    border-left: 1px solid; /* Adiciona borda esquerda na div como ser fosse uma linha.*/
+    color: #0c3a48;
+}
+
 .linha-vertical {
     height: 100%; /*Altura da linha*/
     border-left: 2px solid; /* Adiciona borda esquerda na div como ser fosse uma linha.*/
-  }
+}
 
 .carousel-inner img{
     height: 350px;
     object-fit: cover;
+}
+
+.img-cards{
+    height: 250px;
+    width: 250px;
+}
+
+.tamanho-letra{
+    font-size: 15px;
 }
