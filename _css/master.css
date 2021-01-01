@@ -40,8 +40,28 @@
     object-fit: cover;
 }
 
-.text-black{
-    color: black;
+.card-focus :hover{
+    box-shadow: 1px 5px 5px rgba(0,0,0,0.5);
+}
+
+.card-focus-none :hover{
+    box-shadow: none;
+}
+
+.text-dark-happy{
+    color: #212529;
+}
+
+.modal-header{
+    border: none;
+}
+
+.modal-footer{
+    border: none;
+}
+
+.modal-body{
+    padding: 0;
 }
 
 .carousel-inner img{
@@ -59,10 +79,6 @@
 
 .bg-happy-yellow{
     background-color: #e4bd00;
-}
-
-.bg-happy-grey{
-    background-color: #C2C1AC;
 }
 
 .bg-happy-selected{
@@ -213,10 +229,6 @@ section div a:hover{
     width: auto;
 }
 
-#moveisCard{
-    display: block;
-}
-
 .link-modal-blue :hover{
     text-decoration: none;
     color: white;
@@ -224,10 +236,25 @@ section div a:hover{
 
 .link-modal-yellow :hover{
     text-decoration: none;
-    color: black;
+    color: #212529;
 }
 
 .modal-body{
     max-height: 450px;
     overflow-y: scroll;
   }
+
+.img-product-banner{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.btn-orcamento{
+    border: none;
+}
+
+.btn-orcamento:hover{
+    background-color: white;
+    color: black;
+}
