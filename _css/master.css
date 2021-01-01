@@ -40,6 +40,10 @@
     object-fit: cover;
 }
 
+.text-black{
+    color: black;
+}
+
 .carousel-inner img{
     height: 400px;
     object-fit: cover;
@@ -89,8 +93,12 @@
     margin-bottom: -1;
 }
 
-#click-here :hover{
+#click-here{
     background-color: white;
+}
+
+#click-here :hover{
+    background-color: #e4bd00;
 }
 
 #img-click{
@@ -141,7 +149,6 @@
     resize: none;
 }
 
- 
 /* The container <div> - needed to position the dropdown content */
 .dropdown {
     position: relative;
@@ -195,3 +202,32 @@ section div a:hover{
     background-color: #e4bd00;
     color: #0c3a48;
 }
+
+.box-selected{
+    background-color: #e4bd00;
+    color: #0c3a48;
+}
+
+.card-products{
+    height: 270px;
+    width: auto;
+}
+
+#moveisCard{
+    display: block;
+}
+
+.link-modal-blue :hover{
+    text-decoration: none;
+    color: white;
+}
+
+.link-modal-yellow :hover{
+    text-decoration: none;
+    color: black;
+}
+
+.modal-body{
+    max-height: 450px;
+    overflow-y: scroll;
+  }

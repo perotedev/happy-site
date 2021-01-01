@@ -25,11 +25,11 @@
                             </li>
         
                             <li class="nav-item dropdown">
-                                <a class="nav-link color-happy-dark bg-selected dropbtn dropdown-toggle" href="_pages/produtos.html">Produtos</a>
+                                <a class="nav-link color-happy-dark bg-selected bg-happy-yellow dropbtn dropdown-toggle" href="_pages/produtos.html">Produtos</a>
                                 <div class="dropdown-content">
-                                    <a href="#"> • Móveis sob medida</a>
-		                            <a href="#"> • Produtos de limpeza</a>
-		                            <a href="#"> • Promoções</a>
+                                    <a href="_pages/moveis_sob_medida.html"> • Móveis sob medida</a>
+		                            <a href="_pages/produtos_de_limpeza.html"> • Produtos de limpeza</a>
+		                            <a href="_pages/promocoes.html"> • Promoções</a>
                                 </div>
                             </li>
         
@@ -55,6 +55,14 @@
                     <div class="carousel-inner">
 
                         <div class="carousel-item active">
+                            <img src="_img/_carousel/slide3.jpg" class="d-block w-100" alt="Foto de mesa de escritório">
+                            <div class="carousel-caption d-none d-md-block shadow-text text-left">
+                                <h1>Móveis planejados para escritório</h1>
+                                <p class="text-size-15">Tenha um local adequado para as reuniões com a sua equipe de trabalho.</p>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
                             <img src="_img/_carousel/slide1.jpg" class="d-block w-100" alt="Foto de armário de banheiro">
                             <div class="carousel-caption d-none d-md-block shadow-text text-left">
                                 <h1>Móveis planejados para banheiros</h1>
@@ -67,14 +75,6 @@
                             <div class="carousel-caption d-none d-md-block shadow-text text-right">
                                 <h1>Móveis planejados para cozinha</h1>
                                 <p class="text-size-15">Aproveite o espaço e guarde suas coisas da melhor maneira possível.</p>
-                            </div>
-                        </div>
-
-                        <div class="carousel-item">
-                            <img src="_img/_carousel/slide3.jpg" class="d-block w-100" alt="Foto de mesa de escritório">
-                            <div class="carousel-caption d-none d-md-block shadow-text text-left">
-                                <h1>Móveis planejados para escritório</h1>
-                                <p class="text-size-15">Tenha um local adequado para as reuniões com a sua equipe de trabalho.</p>
                             </div>
                         </div>
 
@@ -97,31 +97,106 @@
         <main class="">
             <section class="container">
                 <section class="row align-items-center pt-4 pb-5">
-                    <div class="col-12 col-lg-4 pb-2 bg-happy-blue text-white text-center">
-                        <h2 class="font-weight-bold pt-4">Linha Doméstica</h2>
-                        <img class="rounded-circle img-circle-size2" src="_img/_expos/promo1.jpg" alt="Modelo de Painel de Televisão">
-                        <p class="pt-2">
-                            Guarda-roupas, painéis para televisão, armários, mesas e muito mais.
-                        </p>
+                    <div class="col-12 col-lg-4 pb-2 bg-happy-blue text-white text-center card-blue-fix-size link-modal-blue">
+                        <a data-toggle="modal" role="button" href="#domesticBackDrop">
+                            <h2 class="font-weight-bold pt-4">Linha Doméstica</h2>
+                            <img class="rounded-circle img-circle-size2" src="_img/_expos/promo1.jpg" alt="Modelo de Painel de Televisão">
+                            <p class="pt-2">
+                                Guarda-roupas, painéis para televisão, armários, mesas e muito mais.
+                            </p>
+                        </a>
 
+                        <section class="modal fade show" id="domesticBackDrop" tabindex="-1" aria-labelledby="domesticBackdropLabel">
+                            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title text-dark" id="domesticBackdropLabel">Linha Doméstica</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+
+                                    <div class="modal-body">
+                                        <img class="w-100 pb-3" src="_img/_expos/promo1.jpg" alt="Painel de Televisão">
+                                        <img class="w-100 pb-3" src="_img/_expos/promo1.jpg" alt="Painel de Televisão">
+                                    </div>
+
+                                    <div class="modal-footer">
+                                        <a class="" href="_pages/moveis_sob_medida.html">
+                                            <button type="button" class="btn btn-primary">Saiba mais</button>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
                     </div>
 
-                    <div class="col-12 col-lg-4 pb-2 bg-happy-yellow text-center">
-                        <h2 class="font-weight-bold pt-4">Linha Office</h2>
-                        <img class="rounded-circle img-circle-size1" src="_img/_expos/promo2.jpg" alt="Modelo de Painel de Televisão">
-                        <p class="pt-2 px-2">
-                            Escrivaninhas, mesas para reunião, quadro de notícias, tudo para o seu escritório.
-                        </p>
+                    <div class="col-12 col-lg-4 pb-2 bg-happy-yellow text-center card-yellow-fix-size link-modal-yellow">
+                        <a class="text-black" data-toggle="modal" role="button" href="#officeBackDrop">
+                            <h2 class="font-weight-bold pt-4">Linha Office</h2>
+                            <img class="rounded-circle img-circle-size1" src="_img/_expos/promo2.jpg" alt="Modelo de mesa L">
+                            <p class="pt-2 px-2">
+                                Escrivaninhas, mesas para reunião, quadro de notícias, tudo para o seu escritório.
+                            </p>
+                        </a>
 
+                        <section class="modal fade show" id="officeBackDrop" tabindex="-1" aria-labelledby="officeBackdropLabel">
+                            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title text-dark" id="officeBackdropLabel">Linha Office</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+
+                                    <div class="modal-body">
+                                        <img class="w-100 pb-3" src="_img/_expos/promo2.jpg" alt="Modelo de mesa L">
+                                        <img class="w-100 pb-3" src="_img/_expos/promo2.jpg" alt="Modelo de mesa L">
+                                    </div>
+
+                                    <div class="modal-footer">
+                                        <a class="" href="_pages/moveis_sob_medida.html">
+                                            <button type="button" class="btn btn-primary">Saiba mais</button>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
                     </div>
 
-                    <div class="col-12 col-lg-4 pb-2 bg-happy-blue text-white text-center">
-                        <h2 class="font-weight-bold pt-4">Linha Econômica</h2>
-                        <img class="rounded-circle img-circle-size2" src="_img/_expos/promo3.jpg" alt="Modelo de Painel de Televisão">
-                        <p class="pt-2">
-                            Confira as nossas promoções e econtre o melhor orçamento para você.
-                        </p>
+                    <div class="col-12 col-lg-4 pb-2 bg-happy-blue text-white text-center card-blue-fix-size link-modal-blue">
+                        <a data-toggle="modal" role="button" href="#economicaBackDrop">
+                            <h2 class="font-weight-bold pt-4">Linha Econômica</h2>
+                            <img class="rounded-circle img-circle-size2" src="_img/_expos/promo3.jpg" alt="Modelo de armário">
+                            <p class="pt-2">
+                                Confira as nossas promoções e encontre<br>o melhor orçamento para você.
+                            </p>
+                        </a>
 
+                        <section class="modal fade show" id="economicaBackDrop" tabindex="-1" aria-labelledby="economicaBackdropLabel">
+                            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title text-dark" id="economicaBackdropLabel">Linha Econômica</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+
+                                    <div class="modal-body">
+                                        <img class="w-100 pb-3" src="_img/_expos/promo3.jpg" alt="Modelo de armário">
+                                        <img class="w-100 pb-3" src="_img/_expos/promo3.jpg" alt="Modelo de armário">
+                                    </div>
+
+                                    <div class="modal-footer">
+                                        <a class="" href="_pages/moveis_sob_medida.html">
+                                            <button type="button" class="btn btn-primary">Saiba mais</button>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
                     </div>
 
                 </section>
@@ -157,7 +232,7 @@
                 </section>
 
                 <div class="row bg-happy-yellow justify-content-center">
-                    <h2 class="font-weight-bold py-3">Clientes Happy Satisfeitos</h2>
+                    <h2 class="font-weight-bold px-4 py-4 text-center">Clientes Happy Satisfeitos</h2>
                 </div>
 
                 <section class="bg-happy-yellow row text-center pb-4 px-4">
@@ -202,7 +277,7 @@
                         </p>
 
                         <div class="px-2">
-                            <a id="click-here" href="_pages/fale_conosco.html"><button type="button" class="btn bg-happy-yellow w-100 font-weight-bold text-size20">Clique Aqui!</button></a>
+                            <a id="click-here" href="_pages/fale_conosco.html"><button type="button" class="btn w-100 font-weight-bold text-size20">Clique Aqui!</button></a>
                         </div>
                         <img class="pt-3 pb-4" id="img-click" src="_img/_icons/iconfinder-click-icon.svg" alt="Imagem representando clique">
                     </div>
