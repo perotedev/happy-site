@@ -21,24 +21,24 @@
                     <section class="bg-happy-yellow rounded-left col-12 col-lg-5">
                         <ul class="nav d-flex justify-content-center tamanho-letra">
                             <li class="nav-item">
-                                <a class="nav-link color-happy-dark bg-selected" href="../index.html">Início</a>
+                                <a class="nav-link color-happy-dark bg-selected" href="../index.php">Início</a>
                             </li>
         
                             <li class="nav-item dropdown">
-                                <a class="nav-link active color-happy-dark bg-selected bg-happy-selected dropbtn dropdown-toggle" href="produtos.html">Produtos</a>
+                                <a class="nav-link color-happy-dark bg-selected bg-happy-yellow dropbtn dropdown-toggle" href="produtos.php">Produtos</a>
                                 <div class="dropdown-content">
-                                    <a href="moveis_sob_medida.html"> • Móveis sob medida</a>
-		                            <a href="produtos_de_limpeza.html"> • Produtos de limpeza</a>
-		                            <a href="promocoes.html"> • Promoções</a>
+                                    <a href="moveis_sob_medida.php"> • Móveis sob medida</a>
+		                            <a href="produtos_de_limpeza.php"> • Produtos de limpeza</a>
+		                            <a href="promocoes.php"> • Promoções</a>
                                 </div>
                             </li>
         
                             <li class="nav-item">
-                                <a class="nav-link color-happy-dark bg-selected" href="sobre_nos.html">Sobre Nós</a>
+                                <a class="nav-link color-happy-dark bg-selected" href="sobre_nos.php">Sobre Nós</a>
                             </li>
         
                             <li class="nav-item">
-                                <a class="nav-link color-happy-dark bg-selected" href="fale_conosco.html">Fale Conosco</a>
+                                <a class="nav-link color-happy-dark bg-selected" href="fale_conosco.php">Fale Conosco</a>
                             </li>
                         </ul>
                     </section>
@@ -53,42 +53,21 @@
 
         <main class="">
             <section class="container">
-                <section class="row align-items-center text-white text-center box-select">
-                    <div class="col-12 col-lg-4 pb-3 bg-happy-blue card-products">
-                        <a role="button" href="#moveisCard" >
-                            <h3 class="font-weight-bold pt-5">Móveis Sob Medida</h3>
-                            <p class="px-4 pb-5">
-                                Ser a maior e melhor empresa amazonense de produtos de limpeza e movelaria 
-                                que facilitem o dia a dia e melhoram a qualidade de vida dos consumidores.
-                            </p>
-                        </a>
+                <section class="row align-items-center text-white text-center bg-happy-blue">
+                    <div class="col-12 col-lg-4 pb-3 card-products">
+                        <h3 class="font-weight-bold pt-5">Produtos de Limpeza</h3>
+                        <p class="px-4">
+                            Ser a maior e melhor empresa amazonense de produtos de limpeza e movelaria 
+                            que facilitem o dia a dia e melhoram a qualidade de vida dos consumidores.
+                        </p>
                     </div>
 
-                    <div class="col-12 col-lg-4 pb-3 bg-happy-blue card-products">
-                        <a href="#limpezaCard">
-                            <h3 class="font-weight-bold pt-5">Produtos de Limpeza</h3>
-                            <p class="px-4 pb-5">
-                                • Inspirar confiança estabelecendo vínculos com consumidores e assegurar a qualidade dos produtos.<br>
-                                • Gerar resultados consistentes e crescentes, garantindo nossa solidez.
-                            </p>
-                        </a>
-                    </div>
-
-                    <div class="col-12 col-lg-4 pb-3 bg-happy-blue card-products">
-                        <a href="#promocaoCard">
-                            <h3 class="font-weight-bold pt-5">Promoções</h3>
-                            <p class="px-4 pb-5">
-                                • Atuar com honestidade, ética, lealdade e justiça em todos os momentos.<br>
-                                • Fazer prevalecer o compromisso com os objetivos da empresa e com a
-                                sustentabilidade do negócio.
-                            </p>
-                        </a>
+                    <div class="col-12 col-lg-8 px-0 card-products">
+                        <img class="img-product-banner" src="../_img/_carousel/slide2.jpg" alt="Movel sob medida">
                     </div>
                 </section>
 
-                <div class="row"></div>
-
-                <section class="bg-happy-yellow text-center py-4 px-4" id="moveisCard">
+                <section class="bg-happy-yellow text-center py-4 px-4">
                     <div class="row">
                         <div class="col-12 col-lg-6">
                             <img src="../_img/_expos/promo1.jpg" class="rounded img-cards" alt="...">
@@ -108,7 +87,7 @@
                     </div>
                 </section>
 
-                <section class="bg-happy-blue text-center py-4 px-4" id="limpezaCard">
+                <section class="bg-happy-yellow text-center py-4 px-4">
                     <div class="row">
                         <div class="col-12 col-lg-6">
                             <img src="../_img/_expos/promo1.jpg" class="rounded img-cards" alt="...">
@@ -128,26 +107,51 @@
                     </div>
                 </section>
 
-                <section class="bg-happy-yellow text-center py-4 px-4" id="promocaoCard">
-                    <div class="row">
-                        <div class="col-12 col-lg-6">
-                            <img src="../_img/_expos/promo1.jpg" class="rounded img-cards" alt="...">
-                            <div class="">
-                                <p class="">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            </div>
-                        </div>
+                <section class="row bg-happy-blue align-items-center px-4">
+                    <div class="col-12 col-lg-8">
+                        <h5 class="font-weight-bold text-white pt-2">Para mais informações contate-nos e solicite um orçamento!</h5>
+                    </div>
 
-                        <div class="col"></div>
-
-                        <div class="col-12 col-lg-4">
-                            <img src="../_img/_expos/promo3.jpg" class="rounded img-cards" alt="...">
-                            <div class="">
-                                <p class="">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            </div>
-                        </div>
+                    <div class="col-12 col-lg-4 py-4">
+                        <a href="fale_conosco.php">
+                            <button class="btn btn-primary w-100 px-4 bg-happy-yellow color-happy-dark btn-orcamento">Solicite seu orçamento aqui!</button>
+                        </a>
                     </div>
                 </section>
 
+                <div class="row bg-happy-yellow justify-content-center rounded-top mt-5">
+                    <h2 class="font-weight-bold px-4 py-4 text-center">Clientes Happy Satisfeitos</h2>
+                </div>
+
+                <section class="bg-happy-yellow row text-center pb-4 px-4">
+                    <div class="col-12 col-lg-3">
+                        <img src="../_img/_expos/promo3.jpg" class="rounded img-cards" alt="...">
+                        <div class="">
+                            <p class="">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-lg-3">
+                        <img src="../_img/_expos/promo3.jpg" class="rounded img-cards" alt="...">
+                        <div class="">
+                            <p class="">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-lg-3">
+                        <img src="../_img/_expos/promo3.jpg" class="rounded img-cards" alt="...">
+                        <div class="">
+                            <p class="">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-lg-3">
+                        <img src="../_img/_expos/promo3.jpg" class="rounded img-cards" alt="...">
+                        <div class="">
+                            <p class="">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+                </section>
             </section>
 
         </main>

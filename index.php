@@ -21,24 +21,24 @@
                     <section class="bg-happy-yellow rounded-left col-12 col-lg-5">
                         <ul class="nav d-flex justify-content-center tamanho-letra">
                             <li class="nav-item">
-                                <a class="nav-link active color-happy-dark bg-happy-selected" href="index.html">Início</a>
+                                <a class="nav-link active color-happy-dark bg-happy-selected" href="index.php">Início</a>
                             </li>
         
                             <li class="nav-item dropdown">
-                                <a class="nav-link color-happy-dark bg-selected bg-happy-yellow dropbtn dropdown-toggle" href="_pages/produtos.html">Produtos</a>
+                                <a class="nav-link color-happy-dark bg-selected bg-happy-yellow dropbtn dropdown-toggle" href="_pages/produtos.php">Produtos</a>
                                 <div class="dropdown-content">
-                                    <a href="_pages/moveis_sob_medida.html"> • Móveis sob medida</a>
-		                            <a href="_pages/produtos_de_limpeza.html"> • Produtos de limpeza</a>
-		                            <a href="_pages/promocoes.html"> • Promoções</a>
+                                    <a href="_pages/moveis_sob_medida.php"> • Móveis sob medida</a>
+		                            <a href="_pages/produtos_de_limpeza.php"> • Produtos de limpeza</a>
+		                            <a href="_pages/promocoes.php"> • Promoções</a>
                                 </div>
                             </li>
         
                             <li class="nav-item">
-                                <a class="nav-link color-happy-dark bg-selected" href="_pages/sobre_nos.html">Sobre Nós</a>
+                                <a class="nav-link color-happy-dark bg-selected" href="_pages/sobre_nos.php">Sobre Nós</a>
                             </li>
         
                             <li class="nav-item">
-                                <a class="nav-link color-happy-dark bg-selected" href="_pages/fale_conosco.html">Fale Conosco</a>
+                                <a class="nav-link color-happy-dark bg-selected" href="_pages/fale_conosco.php">Fale Conosco</a>
                             </li>
                         </ul>
                     </section>
@@ -122,8 +122,8 @@
                                     </div>
 
                                     <div class="modal-footer">
-                                        <a class="" href="_pages/moveis_sob_medida.html">
-                                            <button type="button" class="btn btn-primary">Saiba mais <img src="../_img/_icons/iconfinder-send-icon.svg" alt="Imagem representando enviar"> </button>
+                                        <a class="" href="_pages/moveis_sob_medida.php">
+                                            <button type="button" class="btn btn-primary">Saiba mais <img src="../_img/_icons/send-icon.svg" alt="Imagem representando enviar"> </button>
                                         </a>
                                     </div>
                                 </div>
@@ -156,8 +156,8 @@
                                     </div>
 
                                     <div class="modal-footer">
-                                        <a class="" href="_pages/moveis_sob_medida.html">
-                                            <button type="button" class="btn btn-primary">Saiba mais <img src="../_img/_icons/iconfinder-send-icon.svg" alt="Imagem representando enviar"> </button>
+                                        <a class="" href="_pages/moveis_sob_medida.php">
+                                            <button type="button" class="btn btn-primary">Saiba mais <img src="../_img/_icons/send-icon.svg" alt="Imagem representando enviar"> </button>
                                         </a>
                                     </div>
                                 </div>
@@ -190,8 +190,8 @@
                                     </div>
 
                                     <div class="modal-footer">
-                                        <a class="" href="_pages/moveis_sob_medida.html">
-                                            <button type="button" class="btn btn-primary">Saiba mais <img src="../_img/_icons/iconfinder-send-icon.svg" alt="Imagem representando enviar"> </button>
+                                        <a class="" href="_pages/moveis_sob_medida.php">
+                                            <button type="button" class="btn btn-primary">Saiba mais <img src="../_img/_icons/send-icon.svg" alt="Imagem representando enviar"> </button>
                                         </a>
                                     </div>
                                 </div>
@@ -203,7 +203,7 @@
 
                 <section class="row align-items-center pb-3 mb-3">
                     <div class="col-12 col-lg-4 text-center">
-                        <img class="objects-icons" src="_img/_icons/iconfinder_smile.svg" alt="Figura representando um cliente">
+                        <img class="objects-icons" src="_img/_icons/smile.svg" alt="Figura representando um cliente">
                         <h2 class="font-weight-bold">Foco no Cliente</h2>
                         <p class="">
                             Nossos clientes são a razão da nossa existência. Nos comprometemos 
@@ -212,7 +212,7 @@
                     </div>
 
                     <div class="col-12 col-lg-4 text-center">
-                        <img class="objects-icons" src="_img/_icons/iconfinder_security.svg" alt="Imagem que representa segurança">
+                        <img class="objects-icons" src="_img/_icons/security.svg" alt="Imagem que representa segurança">
                         <h2 class="font-weight-bold">Segurança</h2>
                         <p class="">
                             Somos rigorosos no cumprimento dos nossos padrões, prezando pela 
@@ -221,7 +221,7 @@
                     </div>
 
                     <div class="col-12 col-lg-4 text-center">
-                        <img id="peoples-size" src="_img/_icons/iconfinder_peoples.svg" alt="Imagem que representa equipe">
+                        <img id="peoples-size" src="_img/_icons/peoples.svg" alt="Imagem que representa equipe">
                         <h2 class="font-weight-bold">Trabalho em Equipe</h2>
                         <p class="">
                             Juntos, com cada colaborador, lutamos para alcançar os seus objetivos; 
@@ -277,9 +277,9 @@
                         </p>
 
                         <div class="px-2">
-                            <a id="click-here" href="_pages/fale_conosco.html"><button type="button" class="btn w-100 font-weight-bold text-size20">Clique Aqui!</button></a>
+                            <a id="click-here" href="_pages/fale_conosco.php"><button type="button" class="btn w-100 font-weight-bold text-size20">Clique Aqui!</button></a>
                         </div>
-                        <img class="pt-3 pb-4" id="img-click" src="_img/_icons/iconfinder-click-icon.svg" alt="Imagem representando clique">
+                        <img class="pt-3 pb-4" id="img-click" src="_img/_icons/click-icon.svg" alt="Imagem representando clique">
                     </div>
             </section>
 

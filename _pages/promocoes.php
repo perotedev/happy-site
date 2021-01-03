@@ -21,24 +21,24 @@
                     <section class="bg-happy-yellow rounded-left col-12 col-lg-5">
                         <ul class="nav d-flex justify-content-center tamanho-letra">
                             <li class="nav-item">
-                                <a class="nav-link color-happy-dark bg-selected" href="../index.html">Início</a>
+                                <a class="nav-link color-happy-dark bg-selected" href="../index.php">Início</a>
                             </li>
         
                             <li class="nav-item dropdown">
-                                <a class="nav-link color-happy-dark bg-selected bg-happy-yellow dropbtn dropdown-toggle" href="produtos.html">Produtos</a>
+                                <a class="nav-link color-happy-dark bg-selected bg-happy-yellow dropbtn dropdown-toggle" href="produtos.php">Produtos</a>
                                 <div class="dropdown-content">
-                                    <a href="moveis_sob_medida.html"> • Móveis sob medida</a>
-		                            <a href="produtos_de_limpeza.html"> • Produtos de limpeza</a>
-		                            <a href="promocoes.html"> • Promoções</a>
+                                    <a href="moveis_sob_medida.php"> • Móveis sob medida</a>
+		                            <a href="produtos_de_limpeza.php"> • Produtos de limpeza</a>
+		                            <a href="promocoes.php"> • Promoções</a>
                                 </div>
                             </li>
         
                             <li class="nav-item">
-                                <a class="nav-link color-happy-dark bg-selected" href="sobre_nos.html">Sobre Nós</a>
+                                <a class="nav-link color-happy-dark bg-selected" href="sobre_nos.php">Sobre Nós</a>
                             </li>
         
                             <li class="nav-item">
-                                <a class="nav-link color-happy-dark bg-selected" href="fale_conosco.html">Fale Conosco</a>
+                                <a class="nav-link color-happy-dark bg-selected" href="fale_conosco.php">Fale Conosco</a>
                             </li>
                         </ul>
                     </section>
@@ -113,7 +113,7 @@
                     </div>
 
                     <div class="col-12 col-lg-4 py-4">
-                        <a href="fale_conosco.html">
+                        <a href="fale_conosco.php">
                             <button class="btn btn-primary w-100 px-4 bg-happy-yellow color-happy-dark btn-orcamento">Solicite seu orçamento aqui!</button>
                         </a>
                     </div>

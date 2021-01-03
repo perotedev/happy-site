@@ -21,24 +21,24 @@
                     <section class="bg-happy-yellow rounded-left col-12 col-lg-5">
                         <ul class="nav d-flex justify-content-center tamanho-letra">
                             <li class="nav-item">
-                                <a class="nav-link color-happy-dark bg-selected" href="../index.html">Início</a>
+                                <a class="nav-link color-happy-dark bg-selected" href="../index.php">Início</a>
                             </li>
         
                             <li class="nav-item dropdown">
-                                <a class="nav-link color-happy-dark bg-selected bg-happy-yellow dropbtn dropdown-toggle" href="produtos.html">Produtos</a>
+                                <a class="nav-link color-happy-dark bg-selected bg-happy-yellow dropbtn dropdown-toggle" href="produtos.php">Produtos</a>
                                 <div class="dropdown-content">
-                                    <a href="moveis_sob_medida.html"> • Móveis sob medida</a>
-		                            <a href="produtos_de_limpeza.html"> • Produtos de limpeza</a>
-		                            <a href="promocoes.html"> • Promoções</a>
+                                    <a href="moveis_sob_medida.php"> • Móveis sob medida</a>
+		                            <a href="produtos_de_limpeza.php"> • Produtos de limpeza</a>
+		                            <a href="promocoes.php"> • Promoções</a>
                                 </div>
                             </li>
         
                             <li class="nav-item">
-                                <a class="nav-link color-happy-dark bg-selected" href="sobre_nos.html">Sobre Nós</a>
+                                <a class="nav-link color-happy-dark bg-selected" href="sobre_nos.php">Sobre Nós</a>
                             </li>
         
                             <li class="nav-item">
-                                <a class="nav-link active color-happy-dark bg-selected bg-happy-selected" href="fale_conosco.html">Fale Conosco</a>
+                                <a class="nav-link active color-happy-dark bg-selected bg-happy-selected" href="fale_conosco.php">Fale Conosco</a>
                             </li>
                         </ul>
                     </section>
@@ -57,8 +57,8 @@
                     <div class="col-12 col-lg-4 pb-3 bg-happy-blue text-white text-center">
                         <h2 class="font-weight-bold pt-4">Mídias Sociais</h2>
                         <p class="pt-2 px-4">
-                            Instagram: @happyamazonia <img src="../_img/_icons/iconfinder_Circled_Instagram.svg" id="logo-insta-midia" alt="Logo do instagram"><br>
-                            Facebook: happyamazonia <img src="../_img/_icons/iconfinder_Rounded_Facebook.svg" id="logo-face-midia" alt="Logo do facebook">
+                            Instagram: @happyamazonia <img src="../_img/_icons/circled_Instagram.svg" id="logo-insta-midia" alt="Logo do instagram"><br>
+                            Facebook: happyamazonia <img src="../_img/_icons/rounded_Facebook.svg" id="logo-face-midia" alt="Logo do facebook">
                         </p>
 
                     </div>
@@ -69,7 +69,7 @@
                             Solicite um orçamento, preencha os dados e escreva a sua mensagem no
                             espaço logo abaixo!
                         </p>
-                        <img src="../_img/_icons/iconfinder_double-arrow-down.svg" alt="Seta dupla para baixo">
+                        <img src="../_img/_icons/double-arrow-down.svg" alt="Seta dupla para baixo">
 
                     </div>
 
@@ -130,7 +130,7 @@
                                 </div>
                             </div>
                             <div class="text-right">
-                                <button id="btn-send-email" type="submit" class="btn btn-primary">Enviar Mensagem <img src="../_img/_icons/iconfinder-send-icon.svg" alt="Imagem representando enviar"> </button>
+                                <button id="btn-send-email" type="submit" class="btn btn-primary">Enviar Mensagem <img src="../_img/_icons/send-icon.svg" alt="Imagem representando enviar"> </button>
                             </div>
                         </section>
                     </form>
