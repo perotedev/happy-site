@@ -1,7 +1,9 @@
 <?php
+    require "./Material.php";
+
     class ValorMateriais{
-        private Material $materialBranco = new Material;
-        private Material $materialAmadeirado = new Material;
+        private $materialBranco = new Material;
+        private $materialAmadeirado = new Material;
 
         // setters
         public function setMaterialBranco($materialBranco){

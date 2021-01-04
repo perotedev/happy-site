@@ -263,3 +263,16 @@ section div a:hover{
     color: white;
     text-decoration: none;
 }
+
+.block-focus{
+    box-shadow: 1px 5px 5px rgba(0,0,0,0.5);
+}
+
+.block-size{
+    margin-top: 10%;
+}
+
+#busto-user{
+    height: 150px;
+    width: auto;
+}
