@@ -29,6 +29,7 @@
                                 <div class="dropdown-content">
                                     <a href="moveis_sob_medida.php"> • Móveis sob medida</a>
 		                            <a href="produtos_de_limpeza.php"> • Produtos de limpeza</a>
+                                    <a href="hotalicas.php"> • Hortaliças Happy</a>
 		                            <a href="promocoes.php"> • Promoções</a>
                                 </div>
                             </li>

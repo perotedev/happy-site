@@ -29,6 +29,7 @@
                                 <div class="dropdown-content">
                                     <a href="_pages/moveis_sob_medida.php"> • Móveis sob medida</a>
 		                            <a href="_pages/produtos_de_limpeza.php"> • Produtos de limpeza</a>
+                                    <a href="hotalicas.php"> • Hortaliças Happy</a>
 		                            <a href="_pages/promocoes.php"> • Promoções</a>
                                 </div>
                             </li>
@@ -98,19 +99,19 @@
             <section class="container">
                 <section class="row align-items-center pt-4 pb-5 card-focus">
                     <div class="col-12 col-lg-4 pb-2 bg-happy-blue text-white text-center card-blue-fix-size link-modal-blue card-focus-none">
-                        <a data-toggle="modal" role="button" href="#domesticBackDrop">
-                            <h2 class="font-weight-bold pt-4">Linha Doméstica</h2>
+                        <a data-toggle="modal" role="button" href="#limpezaBackDrop">
+                            <h2 class="font-weight-bold pt-4">Produtos de Limpeza</h2>
                             <img class="rounded-circle img-circle-size2" src="_img/_expos/promo1.jpg" alt="Modelo de Painel de Televisão">
                             <p class="pt-2">
                                 Guarda-roupas, painéis para televisão, armários, mesas e muito mais.
                             </p>
                         </a>
 
-                        <section class="modal fade show" id="domesticBackDrop" tabindex="-1" aria-labelledby="domesticBackdropLabel">
+                        <section class="modal fade show" id="limpezaBackDrop" tabindex="-1" aria-labelledby="limpezaBackdropLabel">
                             <div class="modal-dialog modal-lg modal-dialog-centered">
                                 <div class="modal-content bg-happy-yellow">
                                     <div class="modal-header">
-                                        <h5 class="modal-title text-dark-happy font-weight-bold" id="domesticBackdropLabel">Linha Doméstica</h5>
+                                        <h5 class="modal-title text-dark-happy font-weight-bold" id="limpezaBackdropLabel">Linha Doméstica</h5>
                                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                             <span aria-hidden="true">&times;</span>
                                         </button>
@@ -132,19 +133,19 @@
                     </div>
 
                     <div class="col-12 col-lg-4 pb-2 bg-happy-yellow text-center card-yellow-fix-size link-modal-yellow card-focus-none">
-                        <a class="text-dark-happy" data-toggle="modal" role="button" href="#officeBackDrop">
-                            <h2 class="font-weight-bold pt-4">Linha Office</h2>
+                        <a class="text-dark-happy" data-toggle="modal" role="button" href="#moveisBackDrop">
+                            <h2 class="font-weight-bold pt-4">Móveis Planejados</h2>
                             <img class="rounded-circle img-circle-size1" src="_img/_expos/promo2.jpg" alt="Modelo de mesa L">
                             <p class="pt-2 px-2">
                                 Escrivaninhas, mesas para reunião, quadro de notícias, tudo para o seu escritório.
                             </p>
                         </a>
 
-                        <section class="modal fade show" id="officeBackDrop" tabindex="-1" aria-labelledby="officeBackdropLabel">
+                        <section class="modal fade show" id="moveisBackDrop" tabindex="-1" aria-labelledby="moveisBackdropLabel">
                             <div class="modal-dialog modal-lg modal-dialog-centered">
                                 <div class="modal-content bg-happy-yellow">
                                     <div class="modal-header">
-                                        <h5 class="modal-title  text-dark-happy font-weight-bold" id="officeBackdropLabel">Linha Office</h5>
+                                        <h5 class="modal-title  text-dark-happy font-weight-bold" id="moveisBackdropLabel">Linha Office</h5>
                                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                             <span aria-hidden="true">&times;</span>
                                         </button>
@@ -156,7 +157,7 @@
                                     </div>
 
                                     <div class="modal-footer">
-                                        <a class="" href="_pages/moveis_sob_medida.php">
+                                        <a class="text-hover-white" href="_pages/moveis_sob_medida.php">
                                             <button type="button" class="btn btn-primary">Saiba mais <img src="../_img/_icons/send-icon.svg" alt="Imagem representando enviar"> </button>
                                         </a>
                                     </div>
@@ -166,19 +167,19 @@
                     </div>
 
                     <div class="col-12 col-lg-4 pb-2 bg-happy-blue text-white text-center card-blue-fix-size link-modal-blue card-focus-none">
-                        <a data-toggle="modal" role="button" href="#economicaBackDrop">
-                            <h2 class="font-weight-bold pt-4">Linha Econômica</h2>
+                        <a data-toggle="modal" role="button" href="#hortaBackDrop">
+                            <h2 class="font-weight-bold pt-4">Hortaliças Happy</h2>
                             <img class="rounded-circle img-circle-size2" src="_img/_expos/promo3.jpg" alt="Modelo de armário">
                             <p class="pt-2">
                                 Confira as nossas promoções e encontre<br>o melhor orçamento para você.
                             </p>
                         </a>
 
-                        <section class="modal fade show" id="economicaBackDrop" tabindex="-1" aria-labelledby="economicaBackdropLabel">
+                        <section class="modal fade show" id="hortaBackDrop" tabindex="-1" aria-labelledby="hortaBackdropLabel">
                             <div class="modal-dialog modal-lg modal-dialog-centered">
                                 <div class="modal-content bg-happy-yellow">
                                     <div class="modal-header">
-                                        <h5 class="modal-title text-dark-happy font-weight-bold" id="economicaBackdropLabel">Linha Econômica</h5>
+                                        <h5 class="modal-title text-dark-happy font-weight-bold" id="hortaBackdropLabel">Linha Econômica</h5>
                                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                             <span aria-hidden="true">&times;</span>
                                         </button>

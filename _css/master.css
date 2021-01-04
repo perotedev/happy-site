@@ -258,3 +258,8 @@ section div a:hover{
     background-color: white;
     color: black;
 }
+
+.text-hover-white :hover{
+    color: white;
+    text-decoration: none;
+}
