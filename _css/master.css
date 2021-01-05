@@ -269,10 +269,14 @@ section div a:hover{
 }
 
 .block-size{
-    margin-top: 10%;
+    margin-top: 8%;
 }
 
 #busto-user{
     height: 150px;
     width: auto;
+}
+
+.card-login-size{
+    height: 470px;
 }

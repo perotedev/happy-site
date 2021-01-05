@@ -1,6 +1,6 @@
 USE devtest;
 
-CREATE TABLE orcamento(
+CREATE TABLE tb_orcamento(
     idPedido INT NOT NULL,
     clientName VARCHAR(50) NOT NULL,
     clientEmail VARCHAR(50) NOT NULL,
@@ -20,7 +20,7 @@ CREATE TABLE orcamento(
     PRIMARY KEY(idPedido)
 )
 
-CREATE TABLE materials(
+CREATE TABLE tb_materials(
     typeMDF VARCHAR(10) NOT NULL,
     valorMDF FLOAT NOT NULL,
     valorFitaRolo FLOAT NOT NULL,
@@ -34,4 +34,12 @@ CREATE TABLE materials(
     valorCantoneira FLOAT NOT NULL,
 
     PRIMARY KEY(typeMDF)
+)
+
+CREATE TABLE tb_permitions(
+    userHappy VARCHAR(10) NOT NULL,
+    userPassword PASSWORD NOT NULL,
+    typeUser INT NOT NULL,
+
+    PRIMARY KEY(userHappy)
 )

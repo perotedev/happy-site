@@ -13,7 +13,7 @@
         private $valorCantoneira;
 
         // constructor
-        public function Material($typeMDF, $valorMDF, $valorFitaRolo, $valorDobradica, $valorPuxador, $valorHDF, $valorThiner, $valorEstopa, $valorCola, $valorRodinha, $valorCantoneira){
+        function Material($typeMDF, $valorMDF, $valorFitaRolo, $valorDobradica, $valorPuxador, $valorHDF, $valorThiner, $valorEstopa, $valorCola, $valorRodinha, $valorCantoneira){
             $this->typeMDF = $typeMDF;
             $this->valorMDF = $valorMDF;
             $this->valorFitaRolo = $valorFitaRolo;
