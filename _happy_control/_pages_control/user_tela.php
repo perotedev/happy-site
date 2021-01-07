@@ -24,18 +24,18 @@
                 <p class="col-12 text-white my-1">SISTEMA DE GERENCIAMENTO HAPPYCONTROL</p>
             </div>
             <nav class="row bg-happy-yellow align-items-center">
-                <section class="col-12 col-lg-11 color-happy-dark">
+                <section class="col-12 col-lg-11 color-happy-dark pl-0">
                     <ul class="nav text-center">
-                        <li class="nav-item">
+                        <li class="nav-item active bg-happy-selected">
+                            <a class="nav-link py-1 text-black bg-selected" href="" alt="">Início</a>
+                        </li>
+
+                        <li class="nav-item linha-vertical1">
                             <a class="nav-link py-1 text-black bg-selected" href="" alt="">Promoções</a>
                         </li>
 
                         <li class="nav-item linha-vertical1">
-                            <a class="nav-link py-1 text-black bg-selected" href="" alt="">Orçamentos Pendentes <span class="notification-number font-weight-bold px-1">13</span></a>
-                        </li>
-
-                        <li class="nav-item linha-vertical1">
-                            <a class="nav-link py-1 text-black bg-selected" href="" alt="">Orçamentos Finalizados</a>
+                            <a class="nav-link py-1 text-black bg-selected" href="" alt="">Orçamentos <span class="notification-number font-weight-bold px-1">13</span></a>
                         </li>
 
                         <li class="nav-item linha-vertical1">
@@ -43,11 +43,11 @@
                         </li>
 
                         <li class="nav-item linha-vertical1">
-                            <a class="nav-link py-1 text-black bg-selected" href="" alt="">Preços</a>
+                            <a class="nav-link py-1 text-black bg-selected" href="" alt="">Preços de Custo</a>
                         </li>
 
                         <li class="nav-item linha-vertical1">
-                            <a class="nav-link py-1 text-black bg-selected" href="" alt="">Usuários</a>
+                            <a class="nav-link py-1 text-black bg-selected" href="" alt="">Gerenciar Usuários</a>
                         </li>
 
                         <li class="nav-item linha-vertical1">
