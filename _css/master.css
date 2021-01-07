@@ -16,9 +16,16 @@
     opacity: 100%;
 }
 
-.linha-vertical-fina {
+.linha-vertical1 {
     height: 100%; /*Altura da linha*/
-    border-left: 0px solid; /* Adiciona borda esquerda na div como ser fosse uma linha.*/
+    border-left: 1px solid; /* Adiciona borda esquerda na div como ser fosse uma linha.*/
+    color: #0c3a48;
+}
+
+.linha-vertical2:hover {
+    height: 100%; /*Altura da linha*/
+    border-right: 1px solid; /* Adiciona borda esquerda na div como ser fosse uma linha.*/
+    border-left: 1px solid;
     color: #0c3a48;
 }
 
@@ -69,8 +76,21 @@
     object-fit: cover;
 }
 
+.no-effect:hover{
+    text-decoration: none;
+    text-transform: none;
+}
+
+.bg-selected-blue:hover{
+    background-color: #1d9bb1;
+}
+
 .bg-selected:hover{
     background-color: white;
+}
+
+.bg-happy-dark{
+    background-color: #212529;
 }
 
 .bg-happy-blue{
@@ -83,6 +103,10 @@
 
 .bg-happy-selected{
     background-color: white;
+}
+
+.bg-happy-blue-dark{
+    background-color: #0c3a48;
 }
 
 .img-cards{
@@ -279,4 +303,13 @@ section div a:hover{
 
 .card-login-size{
     height: 470px;
+}
+
+.text-black{
+    color: black;
+}
+
+.notification-number{
+    background-color: red;
+    color: white;
 }

@@ -2,8 +2,8 @@
     require_once "../_interface/conect.php";
 
     class LoadMateriais{
-        public $materialBranco = new Material;
-        public $materialAmadeirado = new Material;
+        private Material $materialBranco = new Material;
+        private Material $materialAmadeirado = new Material;
 
         function set_materiais($typeMDF, $valorMDF, $valorFitaRolo, $valorDobradica, $valorPuxador, $valorHDF, $valorThiner, $valorEstopa, $valorCola, $valorRodinha, $valorCantoneira){
             if($typeMDF == 1){
@@ -19,7 +19,6 @@
                 $this->materialBranco->setValorRodinha($valorRodinha);
                 $this->materialBranco->setValorCantoneira($valorCantoneira);
             }
-
             else{
                 $this->materialAmadeirado->setTypeMDF($typeMDF);
                 $this->materialAmadeirado->setValorMDF($valorMDF);
