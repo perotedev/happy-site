@@ -27,31 +27,31 @@
                 <section class="col-12 col-lg-11 color-happy-dark pl-0">
                     <ul class="nav text-center">
                         <li class="nav-item active bg-happy-selected">
-                            <a class="nav-link py-1 text-black bg-selected" href="" alt="">Início</a>
+                            <a class="nav-link py-1 text-black bg-selected" href="./user_tela.php" alt="">Início</a>
                         </li>
 
                         <li class="nav-item linha-vertical1">
-                            <a class="nav-link py-1 text-black bg-selected" href="" alt="">Promoções</a>
+                            <a class="nav-link py-1 text-black bg-selected" href="./promotions.php" alt="">Promoções</a>
                         </li>
 
                         <li class="nav-item linha-vertical1">
-                            <a class="nav-link py-1 text-black bg-selected" href="" alt="">Orçamentos <span class="notification-number font-weight-bold px-1">13</span></a>
+                            <a class="nav-link py-1 text-black bg-selected" href="./ocarmentos.php" alt="">Orçamentos <span class="notification-number font-weight-bold px-1">13</span></a>
                         </li>
 
                         <li class="nav-item linha-vertical1">
-                            <a class="nav-link py-1 text-black bg-selected" href="" alt="">Mensagens <span class="notification-number font-weight-bold px-1">5</span></a>
+                            <a class="nav-link py-1 text-black bg-selected" href="./messages.php" alt="">Mensagens <span class="notification-number font-weight-bold px-1">5</span></a>
                         </li>
 
                         <li class="nav-item linha-vertical1">
-                            <a class="nav-link py-1 text-black bg-selected" href="" alt="">Preços de Custo</a>
+                            <a class="nav-link py-1 text-black bg-selected" href="./cost_material.php" alt="">Preços de Custo</a>
                         </li>
 
                         <li class="nav-item linha-vertical1">
-                            <a class="nav-link py-1 text-black bg-selected" href="" alt="">Gerenciar Usuários</a>
+                            <a class="nav-link py-1 text-black bg-selected" href="./users_acounts.php" alt="">Gerenciar Usuários</a>
                         </li>
 
                         <li class="nav-item linha-vertical1">
-                            <a class="nav-link py-1 text-black bg-selected" href="" alt="">Calendário</a>
+                            <a class="nav-link py-1 text-black bg-selected" href="./calendar.php" alt="">Calendário</a>
                         </li>
                     </ul>
                 </section>

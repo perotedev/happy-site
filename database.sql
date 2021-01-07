@@ -2,8 +2,11 @@ USE devtest;
 
 CREATE TABLE tb_orcamento(
     idPedido INT NOT NULL,
+    situation BOOLEAN NOT NULL,
+    readMessage BOOLEAN NOT NULL,
     clientName VARCHAR(50) NOT NULL,
     clientEmail VARCHAR(50) NOT NULL,
+    clientTelefone VARCHAR(11) NOT NULL,
     typeMDF VARCHAR(10) NOT NULL,
     qtdMDF INT NOT NULL,
     qtdFitaRolo INT NOT NULL,

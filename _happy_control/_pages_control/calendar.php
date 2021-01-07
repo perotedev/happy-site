@@ -27,31 +27,31 @@
                 <section class="col-12 col-lg-11 color-happy-dark pl-0">
                     <ul class="nav text-center">
                         <li class="nav-item">
-                            <a class="nav-link py-1 text-black bg-selected" href="./user_tela.php" alt="">Início</a>
+                            <a class="nav-link py-1 text-black bg-selected" href="./user_tela.php">Início</a>
                         </li>
 
                         <li class="nav-item linha-vertical1">
-                            <a class="nav-link py-1 text-black bg-selected" href="./promotions.php" alt="">Promoções</a>
+                            <a class="nav-link py-1 text-black bg-selected" href="./promotions.php">Promoções</a>
                         </li>
 
                         <li class="nav-item linha-vertical1">
-                            <a class="nav-link py-1 text-black bg-selected" href="./ocarmentos.php" alt="">Orçamentos <span class="notification-number font-weight-bold px-1">13</span></a>
+                            <a class="nav-link py-1 text-black bg-selected" href="./ocarmentos.php">Orçamentos <span class="notification-number font-weight-bold px-1">13</span></a>
+                        </li>
+
+                        <li class="nav-item linha-vertical1">
+                            <a class="nav-link py-1 text-black bg-selected" href="./messages.php">Mensagens <span class="notification-number font-weight-bold px-1">5</span></a>
+                        </li>
+
+                        <li class="nav-item linha-vertical1">
+                            <a class="nav-link py-1 text-black bg-selected" href="./cost_material.php">Preços de Custo</a>
+                        </li>
+
+                        <li class="nav-item linha-vertical1">
+                            <a class="nav-link py-1 text-black bg-selected" href="./users_acounts.php">Gerenciar Usuários</a>
                         </li>
 
                         <li class="nav-item linha-vertical1 active bg-happy-selected">
-                            <a class="nav-link py-1 text-black bg-selected" href="./messages.php" alt="">Mensagens <span class="notification-number font-weight-bold px-1">5</span></a>
-                        </li>
-
-                        <li class="nav-item linha-vertical1">
-                            <a class="nav-link py-1 text-black bg-selected" href="./cost_material.php" alt="">Preços de Custo</a>
-                        </li>
-
-                        <li class="nav-item linha-vertical1">
-                            <a class="nav-link py-1 text-black bg-selected" href="./users_acounts.php" alt="">Gerenciar Usuários</a>
-                        </li>
-
-                        <li class="nav-item linha-vertical1">
-                            <a class="nav-link py-1 text-black bg-selected" href="./calendar.php" alt="">Calendário</a>
+                            <a class="nav-link py-1 text-black bg-selected" href="./calendar.php">Calendário</a>
                         </li>
                     </ul>
                 </section>
@@ -69,38 +69,8 @@
                 <div class="col-12"></div>
             </div>
             <section class="row bg-light">
-                <div class="col-12 py-5 text-center">
-                    <h1>TESTE</h1>
-                </div>
-            </section>
-
-            <section class="row bg-light">
-                <div class="col-12 py-5 text-center">
-                    <h1>TESTE</h1>
-                </div>
-            </section>
-
-            <section class="row bg-light">
-                <div class="col-12 py-5 text-center">
-                    <h1>TESTE</h1>
-                </div>
-            </section>
-
-            <section class="row bg-light">
-                <div class="col-12 py-5 text-center">
-                    <h1>TESTE</h1>
-                </div>
-            </section>
-
-            <section class="row bg-light">
-                <div class="col-12 py-5 text-center">
-                    <h1>TESTE</h1>
-                </div>
-            </section>
-
-            <section class="row bg-light">
-                <div class="col-12 py-5 text-center">
-                    <h1>TESTE</h1>
+                <div class="col-12 py-2 text-center">
+                    <iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23f8f9fa&amp;ctz=America%2FManaus&amp;src=cHQtYnIuYnJhemlsaWFuI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&amp;color=%230B8043&amp;showTitle=0&amp;showNav=1&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0" style="border-width:0" width="100%" height="600" frameborder="0" scrolling="no"></iframe>
                 </div>
             </section>
         </main>
