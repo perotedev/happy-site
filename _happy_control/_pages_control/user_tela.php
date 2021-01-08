@@ -108,7 +108,7 @@
             </section>
 
             <section class="row bg-light py-3">
-                <div class="col-12 col-lg-6 text-center">
+                <div class="col-12 col-lg-8 text-center">
                     <div class="bg-happy-yellow rounded p-4 w-100">
                         <h4 class="text-black pb-2 font-weight-bold">Últimas Mensagens</h4>
                         <div class="">
@@ -116,45 +116,66 @@
                                 <thead class="bg-happy-dark text-white">
                                     <tr>
                                         <th scope="col">Assunto</th>
-                                        <th scope="col">Cliente</th>
+                                        <th class="pl-4" scope="col">Cliente</th>
+                                        <th scope="col">Data</th>
                                         <th scope="col"></th>
                                     </tr>
                                 </thead>
 
                                 <tbody class="bg-light text-black">
                                     <tr>
-                                        <td scope="row">Reclamação</td>
-                                        <td>Lucas da Silva Chaves</td>
+                                        <td class="bg-red text-white" scope="row">Reclamação</td>
+                                        <td class="pl-4">Lucas da Silva Chaves</td>
+                                        <td>20/12/2020</td>
                                         <td class="text-center"><a href=""><img class="open-icon-size" src="../../_img/_icons/open_icon.svg"></a></td>
                                     </tr>
 
                                     <tr>
-                                        <td scope="row">Reclamação</td>
-                                        <td>Lucas da Silva Chaves</td>
+                                        <td class="bg-blue text-white" scope="row">Outro</td>
+                                        <td class="pl-4">Lucas da Silva Chaves</td>
+                                        <td>20/12/2020</td>
                                         <td class="text-center"><a href=""><img class="open-icon-size" src="../../_img/_icons/open_icon.svg"></a></td>
                                     </tr>
 
                                     <tr>
-                                        <td scope="row">Reclamação</td>
-                                        <td>Lucas da Silva Chaves</td>
+                                        <td class="bg-green text-white" scope="row">Orçamento</td>
+                                        <td class="pl-4">Lucas da Silva Chaves</td>
+                                        <td>20/12/2020</td>
                                         <td class="text-center"><a href=""><img class="open-icon-size" src="../../_img/_icons/open_icon.svg"></a></td>
                                     </tr>
 
                                     <tr>
-                                        <td scope="row">Reclamação</td>
-                                        <td>Lucas da Silva Chaves</td>
+                                        <td class="bg-green text-white" scope="row">Orçamento</td>
+                                        <td class="pl-4">Lucas da Silva Chaves</td>
+                                        <td>20/12/2020</td>
                                         <td class="text-center"><a href=""><img class="open-icon-size" src="../../_img/_icons/open_icon.svg"></a></td>
                                     </tr>
 
                                     <tr>
-                                        <td scope="row">Reclamação</td>
-                                        <td>Lucas da Silva Chaves</td>
+                                        <td class="bg-green text-white" scope="row">Orçamento</td>
+                                        <td class="pl-4">Lucas da Silva Chaves</td>
+                                        <td>20/12/2020</td>
                                         <td class="text-center"><a href=""><img class="open-icon-size" src="../../_img/_icons/open_icon.svg"></a></td>
                                     </tr>
 
                                     <tr>
-                                        <td scope="row">Reclamação</td>
-                                        <td>Lucas da Silva Chaves</td>
+                                        <td class="bg-green text-white" scope="row">Orçamento</td>
+                                        <td class="pl-4">Lucas da Silva Chaves Batista</td>
+                                        <td>20/12/2020</td>
+                                        <td class="text-center"><a href=""><img class="open-icon-size" src="../../_img/_icons/open_icon.svg"></a></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td class="bg-red text-white" scope="row">Reclamação</td>
+                                        <td class="pl-4">Lucas da Silva Chaves</td>
+                                        <td>20/12/2020</td>
+                                        <td class="text-center"><a href=""><img class="open-icon-size" src="../../_img/_icons/open_icon.svg"></a></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td class="bg-green text-white" scope="row">Orçamento</td>
+                                        <td class="pl-4">Lucas da Silva Chaves</td>
+                                        <td>20/12/2020</td>
                                         <td class="text-center"><a href=""><img class="open-icon-size" src="../../_img/_icons/open_icon.svg"></a></td>
                                     </tr>
 
@@ -164,16 +185,15 @@
                     </div>
                 </div>
 
-                <div class="col-12 col-lg-6 text-center">
+                <div class="col-12 col-lg-4 text-center">
                     <div class="bg-happy-yellow rounded p-4 w-100">
                         <h4 class="text-black pb-2 font-weight-bold">Preços Atuais</h4>
                         <div class="">
                             <table class="table">
                                 <thead class="bg-happy-dark text-white">
                                     <tr>
-                                        <th scope="col">Assunto</th>
-                                        <th scope="col">Cliente</th>
-                                        <th scope="col"></th>
+                                        <th scope="col">Descrição</th>
+                                        <th scope="col">Valor</th>
                                     </tr>
                                 </thead>
 
@@ -181,37 +201,31 @@
                                     <tr>
                                         <td scope="row">Reclamação</td>
                                         <td>Lucas da Silva Chaves</td>
-                                        <td class="text-center"><a href=""><img class="open-icon-size" src="../../_img/_icons/open_icon.svg"></a></td>
                                     </tr>
 
                                     <tr>
                                         <td scope="row">Reclamação</td>
                                         <td>Lucas da Silva Chaves</td>
-                                        <td class="text-center"><a href=""><img class="open-icon-size" src="../../_img/_icons/open_icon.svg"></a></td>
                                     </tr>
 
                                     <tr>
                                         <td scope="row">Reclamação</td>
                                         <td>Lucas da Silva Chaves</td>
-                                        <td class="text-center"><a href=""><img class="open-icon-size" src="../../_img/_icons/open_icon.svg"></a></td>
                                     </tr>
 
                                     <tr>
                                         <td scope="row">Reclamação</td>
                                         <td>Lucas da Silva Chaves</td>
-                                        <td class="text-center"><a href=""><img class="open-icon-size" src="../../_img/_icons/open_icon.svg"></a></td>
                                     </tr>
 
                                     <tr>
                                         <td scope="row">Reclamação</td>
                                         <td>Lucas da Silva Chaves</td>
-                                        <td class="text-center"><a href=""><img class="open-icon-size" src="../../_img/_icons/open_icon.svg"></a></td>
                                     </tr>
 
                                     <tr>
                                         <td scope="row">Reclamação</td>
                                         <td>Lucas da Silva Chaves</td>
-                                        <td class="text-center"><a href=""><img class="open-icon-size" src="../../_img/_icons/open_icon.svg"></a></td>
                                     </tr>
 
                                 </tbody>

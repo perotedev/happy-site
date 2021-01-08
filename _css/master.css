@@ -313,6 +313,26 @@ section div a:hover{
     color: black;
 }
 
+.color-red{
+    color: red;
+}
+
+.color-blue{
+    color: blue;
+}
+
+.bg-red{
+    background-color: red;
+}
+
+.bg-green{
+    background-color: green;
+}
+
+.bg-blue{
+    background-color: blue;
+}
+
 .notification-number{
     background-color: red;
     color: white;

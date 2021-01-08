@@ -105,17 +105,18 @@
                             <div>
                                 <label class="font-weight-bold" for="assunto">Motivo da mensagem:</label>
                                 <div>
-                                    <label class="pr-4" for="">
+                                    <label class="pr-4" for="orcamento">
                                         <input type="radio" name="motivo" value="Orçamento" required> Orçamento
                                     </label>
 
-                                    <label class="pr-4" for="">
+                                    <label class="pr-4" for="reclamacao">
                                         <input type="radio" name="motivo" value="Reclamação"> Reclamação
                                     </label>
 
-                                    <label class="pr-4" for="">
-                                        <input type="radio" name="motivo" value="Outro"> Outro
+                                    <label class="pr-4" for="outro">
+                                        <input type="radio" name="motivo" value="Sugestão"> Outro
                                     </label>
+
                                 </div>
                             </div>
                         </section>
@@ -127,7 +128,7 @@
                             <div class="pb-3">
                                 <label class="font-weight-bold" for="mensagem">Escreva sua mensagem:</label>
                                 <div class="form-group">
-                                    <textarea class="form-control" class="form-control" name="mensagem" id="mensagem" placeholder="Escreva sua mensagem aqui" rows="3" required></textarea>
+                                    <textarea class="form-control"  name="mensagem" id="mensagem" placeholder="Escreva sua mensagem aqui" rows="3" required></textarea>
                                 </div>
                             </div>
                             <div class="text-right">
