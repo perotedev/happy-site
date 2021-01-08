@@ -35,11 +35,11 @@
                         </li>
 
                         <li class="nav-item linha-vertical1">
-                            <a class="nav-link py-1 text-black bg-selected" href="./ocarmentos.php">Orçamentos <span class="notification-number font-weight-bold px-1">13</span></a>
+                            <a class="nav-link py-1 text-black bg-selected" href="./ocarmentos.php">Orçamentos <span class="notification-number rounded-left rounded-right font-weight-bold px-1">13</span></a>
                         </li>
 
                         <li class="nav-item linha-vertical1">
-                            <a class="nav-link py-1 text-black bg-selected" href="./messages.php">Mensagens <span class="notification-number font-weight-bold px-1">5</span></a>
+                            <a class="nav-link py-1 text-black bg-selected" href="./messages.php">Mensagens <span class="notification-number rounded-left rounded-right font-weight-bold px-1">5</span></a>
                         </li>
 
                         <li class="nav-item linha-vertical1">

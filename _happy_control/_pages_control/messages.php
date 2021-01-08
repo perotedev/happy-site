@@ -35,11 +35,11 @@
                         </li>
 
                         <li class="nav-item linha-vertical1">
-                            <a class="nav-link py-1 text-black bg-selected" href="./ocarmentos.php" alt="">Orçamentos <span class="notification-number font-weight-bold px-1">13</span></a>
+                            <a class="nav-link py-1 text-black bg-selected" href="./ocarmentos.php" alt="">Orçamentos <span class="notification-number rounded-left rounded-right font-weight-bold px-1">13</span></a>
                         </li>
 
                         <li class="nav-item linha-vertical1 active bg-happy-selected">
-                            <a class="nav-link py-1 text-black bg-selected" href="./messages.php" alt="">Mensagens <span class="notification-number font-weight-bold px-1">5</span></a>
+                            <a class="nav-link py-1 text-black bg-selected" href="./messages.php" alt="">Mensagens <span class="notification-number rounded-left rounded-right font-weight-bold px-1">5</span></a>
                         </li>
 
                         <li class="nav-item linha-vertical1">
@@ -69,7 +69,7 @@
                 <div class="col-12"></div>
             </div>
             <section class="row bg-light">
-                <div class="col-12 py-5 text-center">
+                <div class="col-12 col-lg-4 py-5 text-center">
                     <h1>TESTE</h1>
                 </div>
             </section>

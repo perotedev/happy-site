@@ -109,6 +109,10 @@
     background-color: #0c3a48;
 }
 
+.bg-happy-dark-select:hover{
+    background-color: #0c3a48;
+}
+
 .img-cards{
     width: 240px;
     object-fit: cover;
@@ -312,4 +316,9 @@ section div a:hover{
 .notification-number{
     background-color: red;
     color: white;
+}
+
+.card-icon-control{
+    height: 90px;
+    width: auto;
 }
