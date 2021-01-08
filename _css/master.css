@@ -322,3 +322,8 @@ section div a:hover{
     height: 90px;
     width: auto;
 }
+
+.open-icon-size{
+    height: 20px;
+    width: auto;
+}

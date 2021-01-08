@@ -21,7 +21,16 @@ CREATE TABLE tb_orcamento(
     valorParafuso FLOAT NOT NULL,
 
     PRIMARY KEY(idPedido)
-)
+);
+
+CREATE TABLE tb_message(
+    idMessage INT NOT NULL,
+    messageContent VARCHAR NOT NULL,
+    clientName VARCHAR(50) NOT NULL,
+    typeMessage VARCHAR(20) NOT NULL,
+
+    PRIMARY KEY(idMessage)
+);
 
 CREATE TABLE tb_materials(
     typeMDF VARCHAR(10) NOT NULL,
@@ -37,7 +46,7 @@ CREATE TABLE tb_materials(
     valorCantoneira FLOAT NOT NULL,
 
     PRIMARY KEY(typeMDF)
-)
+);
 
 CREATE TABLE tb_permitions(
     userHappy VARCHAR(10) NOT NULL,
@@ -45,4 +54,4 @@ CREATE TABLE tb_permitions(
     typeUser INT NOT NULL,
 
     PRIMARY KEY(userHappy)
-)
+);
