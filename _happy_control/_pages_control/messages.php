@@ -21,7 +21,7 @@
     <body class="bg-happy-blue">
         <header class="container">
             <div class="row bg-happy-dark text-center font-weight-bold">
-                <p class="col-12 text-white my-1">SISTEMA DE GERENCIAMENTO HAPPYCONTROL</p>
+                <p class="col-12 text-white my-1">HAPPYCONTROL | SISTEMA DE GERENCIAMENTO</p>
             </div>
             <nav class="row bg-happy-yellow align-items-center">
                 <section class="col-12 col-lg-11 color-happy-dark pl-0">
