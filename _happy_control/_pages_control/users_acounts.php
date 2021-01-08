@@ -20,8 +20,9 @@
 
     <body class="bg-happy-blue">
         <header class="container">
-            <div class="row bg-happy-dark text-center font-weight-bold">
-                <p class="col-12 text-white my-1">HAPPYCONTROL | SISTEMA DE GERENCIAMENTO</p>
+            <div class="row bg-happy-dark">
+                <p class="col-12 col-lg-6 text-white font-weight-bold my-1"><span class="color-happy-yellow">HAPPY</span><span class="color-happy-blue">CONTROL</span> | SISTEMA DE GERENCIAMENTO</p>
+                <p class="col-12 col-lg-6 text-white text-right my-1">Sexta-feira, 08 de janeiro de 2021 | 07h32m</p>
             </div>
             <nav class="row bg-happy-yellow align-items-center">
                 <section class="col-12 col-lg-11 color-happy-dark pl-0">

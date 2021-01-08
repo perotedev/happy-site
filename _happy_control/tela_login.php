@@ -26,7 +26,7 @@
                             <div class="col"></div>
 
                             <div class="col-lg-4 block-focus  bg-light rounded-top">
-                                <h1 class="font-weight-bold w-100 py-3 text-center color-happy-dark">HappyControl</h1>
+                                <h1 class="font-weight-bold w-100 py-3 text-center"><span class="color-happy-yellow">Happy</span><span class="color-happy-blue">Control</span></h1>
                             </div>
 
                             <div class="col"></div>
