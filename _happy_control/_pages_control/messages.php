@@ -70,7 +70,7 @@
                 <div class="col-12"></div>
             </div>
             <section class="row bg-light">
-                <div class="col-12 col-lg-4 py-5 text-center">
+                <div class="col-12 py-5 text-center">
                     <h1>TESTE</h1>
                 </div>
             </section>

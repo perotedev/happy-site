@@ -297,7 +297,7 @@ section div a:hover{
 }
 
 .block-size{
-    margin-top: 8%;
+    position: fixed;
 }
 
 #busto-user{

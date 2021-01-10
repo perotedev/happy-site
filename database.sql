@@ -34,7 +34,8 @@ CREATE TABLE tb_message(
 
 CREATE TABLE tb_materials(
     typeMDF VARCHAR(10) NOT NULL,
-    valorMDF FLOAT NOT NULL,
+    valorMDFBranco FLOAT NOT NULL,
+    valorMDFAmadeirado FLOAT NOT NULL,
     valorFitaRolo FLOAT NOT NULL,
     valorDobradica FLOAT NOT NULL,
     valorPuxador FLOAT NOT NULL,

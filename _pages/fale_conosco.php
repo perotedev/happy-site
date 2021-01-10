@@ -57,7 +57,7 @@
                 <section class="row align-items-center">
                     <div class="col-12 col-lg-4 pb-3 bg-happy-blue text-white text-center">
                         <h2 class="font-weight-bold pt-4">Mídias Sociais</h2>
-                        <p class="pt-2 px-4">
+                        <p class="px-4">
                             Instagram: @happyamazonia <img src="../_img/_icons/circled_Instagram.svg" id="logo-insta-midia" alt="Logo do instagram"><br>
                             Facebook: happyamazonia <img src="../_img/_icons/rounded_Facebook.svg" id="logo-face-midia" alt="Logo do facebook">
                         </p>
@@ -66,7 +66,7 @@
 
                     <div class="col-12 col-lg-4 pb-3 bg-happy-yellow text-center">
                         <h2 class="font-weight-bold pt-4 text-center">Envie uma mensagem:</h2>
-                        <p class="pt-2 px-4">
+                        <p class="px-4">
                             Solicite um orçamento, preencha os dados e escreva a sua mensagem no
                             espaço logo abaixo!
                         </p>
@@ -76,7 +76,7 @@
 
                     <div class="col-12 col-lg-4 pb-3 bg-happy-blue text-white text-center">
                         <h2 class="font-weight-bold pt-4">Reclame aqui</h2>
-                        <p class="pt-2 px-4">
+                        <p class="px-4">
                             Para reclamações ligue para o número:<br>
                             <span class="font-weight-bold text-size20">(92) 99632-7412</span>
                         </p>

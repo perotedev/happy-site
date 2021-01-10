@@ -108,7 +108,7 @@
             </section>
 
             <section class="row bg-light py-3">
-                <div class="col-12 col-lg-8 text-center">
+                <div class="col-12 col-lg-7 text-center">
                     <div class="bg-happy-yellow rounded p-4 w-100">
                         <h4 class="text-black pb-2 font-weight-bold">Últimas Mensagens</h4>
                         <div class="">
@@ -179,55 +179,102 @@
                                         <td class="text-center"><a href=""><img class="open-icon-size" src="../../_img/_icons/open_icon.svg"></a></td>
                                     </tr>
 
+                                    <tr>
+                                        <td class="bg-green text-white" scope="row">Orçamento</td>
+                                        <td class="pl-4">Lucas da Silva Chaves</td>
+                                        <td>20/12/2020</td>
+                                        <td class="text-center"><a href=""><img class="open-icon-size" src="../../_img/_icons/open_icon.svg"></a></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td class="bg-green text-white" scope="row">Orçamento</td>
+                                        <td class="pl-4">Lucas da Silva Chaves</td>
+                                        <td>20/12/2020</td>
+                                        <td class="text-center"><a href=""><img class="open-icon-size" src="../../_img/_icons/open_icon.svg"></a></td>
+                                    </tr>
                                 </tbody>
                             </table>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-12 col-lg-4 text-center">
-                    <div class="bg-happy-yellow rounded p-4 w-100">
+                <div class="col-12 col-lg-5 text-center">
+                    <div class="bg-happy-yellow rounded p-4">
                         <h4 class="text-black pb-2 font-weight-bold">Preços Atuais</h4>
                         <div class="">
                             <table class="table">
                                 <thead class="bg-happy-dark text-white">
                                     <tr>
                                         <th scope="col">Descrição</th>
-                                        <th scope="col">Valor</th>
+                                        <th scope="col">Valor Unitário</th>
                                     </tr>
                                 </thead>
 
                                 <tbody class="bg-light text-black">
                                     <tr>
-                                        <td scope="row">Reclamação</td>
-                                        <td>Lucas da Silva Chaves</td>
+                                        <td scope="row">MDF branco </td>
+                                        <td>R$ 300,00</td>
                                     </tr>
 
                                     <tr>
-                                        <td scope="row">Reclamação</td>
-                                        <td>Lucas da Silva Chaves</td>
+                                        <td scope="row">MDF amadeirado</td>
+                                        <td>R$ 600,00</td>
                                     </tr>
 
                                     <tr>
-                                        <td scope="row">Reclamação</td>
-                                        <td>Lucas da Silva Chaves</td>
+                                        <td scope="row">Fita branca / 50mts</td>
+                                        <td>R$ 35,00</td>
                                     </tr>
 
                                     <tr>
-                                        <td scope="row">Reclamação</td>
-                                        <td>Lucas da Silva Chaves</td>
+                                        <td scope="row">Fita amadeirada / 50mts</td>
+                                        <td>R$ 60,00</td>
                                     </tr>
 
                                     <tr>
-                                        <td scope="row">Reclamação</td>
-                                        <td>Lucas da Silva Chaves</td>
+                                        <td scope="row">Dobradiça</td>
+                                        <td>R$ 6,50</td>
                                     </tr>
 
                                     <tr>
-                                        <td scope="row">Reclamação</td>
-                                        <td>Lucas da Silva Chaves</td>
+                                        <td scope="row">Puxador</td>
+                                        <td>R$ 60,00</td>
                                     </tr>
 
+                                    <tr>
+                                        <td scope="row">HDF</td>
+                                        <td>R$ 80,00</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td scope="row">Parafuso</td>
+                                        <td>R$ 350,00</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td scope="row">Thiner</td>
+                                        <td>R$ 15,00</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td scope="row">Estopa grande</td>
+                                        <td>R$ 600,00</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td scope="row">Cola de sapateiro</td>
+                                        <td>R$ 30,50</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td scope="row">Rodinha giratória de silicone</td>
+                                        <td>R$ 40,00</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td scope="row">Cantoneira</td>
+                                        <td>R$ 15,75</td>
+                                    </tr>
                                 </tbody>
                             </table>
                         </div>

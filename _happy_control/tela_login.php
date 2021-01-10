@@ -20,7 +20,7 @@
 
         <main>
             <div class="container">
-                <section class="block-size">
+                <section class="pt-5">
                     <form action="./_interface/login.php" method="POST">
                         <div class="row aligin-itens-center">
                             <div class="col"></div>
